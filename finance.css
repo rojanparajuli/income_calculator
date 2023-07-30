@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/istockphoto-696777314-612x612.jpg);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(300, 300, 300, 0.9); /* Transparent background */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+  }
+  
+  .form input,
+  .form button {
+    margin: 10px;
+    padding: 5px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .form button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .transactions {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .transactions h2 {
+    margin-bottom: 10px;
+    color: #007BFF;
+  }
+  
+  .transactions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transactions li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    font-size: 16px;
+  }
+  
+  .transactions li:last-child {
+    border-bottom: none;
+  }
+  
+  #totalAmount {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #007BFF;
+  }
+  
+  /* Hover effect for transaction list items */
+  .transactions li:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Focus styles for form inputs */
+  .form input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

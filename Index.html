@@ -10,14 +10,27 @@
 
 <body>
   <div class="container">
-    <h1>Welcome to Savings Calculator</h1>
-    <button onclick="redirectToMain()">Get Started</button>
+    <h2> Savings Calculator</h2>
+    <button onclick="redirectToMain('main.html')">Get Started</button>
   </div>
-
+  <div class="container 2">
+    <h2> Finance Calculator</h2>
+    <button onclick="redirectToMain('finance.html.html')">Get Started</button>
+  </div>
+  <div class="container 3">
+    <h2> Share Calculator</h2>
+    <button onclick="redirectToMain('share.html')">Get Started</button>
+  </div>
+  
   <script>
-    function redirectToMain() {
-      window.location.href = "main.html";
+    function redirectToMain(targetPage) {
+      window.location.href = targetPage;
     }
+  </script>
+  
+
+  
+    
   </script>
 </body>
 
